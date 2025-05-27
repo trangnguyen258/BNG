@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1, h2, h3 {font-family: "Playfair Display", serif;}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #666666;margin: 0
+}
+header{
+width: 100%; height: 60px; background-color: #D7D7D7; border-bottom: 1px solid darked;	
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none;display: flex
+}
+.menu{
+	padding-top: 20px
+} 
+.menu ul li a{
+padding: 10px 20px; text-decoration: none; font-size: 17px; text-transform: uppercase; color: #434343; border-radius: 20px
+}
+.menu ul li a: hover{
+	background-color: darkred; color: white
+}
+/*phan carousel*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+aside {
+	width: 100%;min-height: 300px	
+}
+main{
+	width: 100%;min-height: 300px
+}
+.text-do{
+color: darkred	
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display:flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	text-decoration: none;padding: 10px; display: block; color: #666666 
+}
+aside ul li a:hover{
+background-color: darkred; color: white 
+}
+footer{
+	width: 100%; min-height: 300px; background-color: #BABABA
+}
+footer a{
+	text-decoration: none; color: #3D3D3D
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	backbackground-color: #529DF2
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block; padding: 10px; color: white
+}
+.text-dende{
+	color:black
+}
+ 	
+	
